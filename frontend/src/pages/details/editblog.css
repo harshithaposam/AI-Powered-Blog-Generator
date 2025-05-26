@@ -1,0 +1,22 @@
+.editBlog .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .editBlog form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .editBlog label {
+    font-weight: bold;
+  }
+  
+  .editBlog input, .editBlog textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

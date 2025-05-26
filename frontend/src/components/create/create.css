@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.input-field {
+  margin-bottom: 15px;
+  border-color: #333;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #0e0d0d;
+}
+
+.input-field input,
+.input-field textarea,
+.input-field select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #0f0c0c;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.input-field input:focus,
+.input-field textarea:focus,
+.input-field select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+.create-blog-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.create-blog-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+}
+
+.create-blog-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #a3bfdd; /* Blue background for enabled state */
+  color: rgb(14, 13, 13);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  /* transition: background-color 0.3s ease, opacity 0.3s ease; */
+}
+
+.create-blog-button:disabled {
+  background-color: #e73d3d; /* Light gray for disabled state */
+  color: #666666; /* Darker text for contrast */
+  cursor: not-allowed; /* Shows the user that the button is disabled */
+  opacity: 0.7; /* Slightly transparent to indicate it's inactive */
+}
+
+.create-blog-button:hover:not(:disabled) {
+  background-color: #0056b3; /* Darker blue on hover for enabled state */
+}
+.blog-container form {
+  /* background-color:rgba(27, 43, 2, 0.5); */
+  padding: 5px 20px 15px 20px;
+  border: 1px solid rgb(10, 10, 10);
+
+ }

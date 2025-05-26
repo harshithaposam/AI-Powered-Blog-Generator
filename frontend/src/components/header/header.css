@@ -1,0 +1,310 @@
+header {
+  background: #ffffff;
+  padding: 15px;
+  position: relative;
+  z-index: 44;
+}
+/* nav */
+nav ul {
+  display: flex;
+  color: #fff;
+}
+nav a {
+  text-transform: capitalize;
+  margin-right: 30px;
+  color: #080808;
+}
+/* User */
+.profile {
+  margin-left: 30px;
+  cursor: pointer;
+}
+.profile .image {
+  display: flex;
+  padding-bottom: 20px;
+}
+.profile .image img {
+  margin-right: 20px;
+}
+.profile button {
+  font-size: 17px;
+  font-weight: 500;
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.openProfile {
+  color: #000;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  width: 250px;
+  background: #fff;
+}
+.openProfile .box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.openProfile .icon {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.openProfile h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+header.active {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0 4px 0 rgb(115 115 115 / 20%);
+  z-index: 9999;
+  background: #ffffff;
+ 
+}
+@media screen and (max-width: 768px) {
+  header .search {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+}
+
+
+.translate {
+  margin-right: auto;
+}
+
+#google_translate_element {
+  display: none; /* Hide all instances initially */
+}
+
+#google_translate_element:first-of-type {
+  display: inline-block; /* Show only the first instance */
+}
+/* header.css */
+.translate-container {
+  display: inline-block;
+  margin-right: 15px;
+}
+#google_translate_element {
+  display: block !important;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+
+.VIpgJd-ZVi9od-aZ2wEe-OiiCO,
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+iframe.VIpgJd-ZVi9od-xl070b-OEVmcd {
+  display: none !important;
+}
+body.VIpgJd-ZVi9od-ORHb {
+  display: none !important;
+}
+/* Hide the Google Translate banner iframe */
+iframe[style*="translate.googleapis.com/translate_static"] {
+  display: none !important;
+}
+
+/* Ensure the language selector stays visible */
+#google_translate_element {
+  display: block !important;
+}
+
+/* Target the Google Translate banner iframe */
+/* iframe.skiptranslate {
+  display: none !important;
+} */
+
+/* Hide parent container if needed
+body > div.skiptranslate {
+  display: none !important;
+} */
+
+/* Hide the unwanted Google Translate branding and extra dropdown */
+.goog-te-banner-frame {
+  display: none !important; /* Hides the top banner */
+}
+
+.goog-logo-link {
+  display: none !important; /* Hides "Powered by Google Translate" */
+}
+
+.goog-te-gadget span {
+  display: none !important; /* Hides Google icon and label */
+}
+
+.goog-te-menu-value > span:first-child {
+  display: none; /* Removes duplicate "Select Language" text */
+}
+
+/* Ensure only the dropdown is visible */
+.goog-te-gadget select {
+  font-size: 14px;
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+/* Hide Google Translate logo and "Powered by Google" */
+.goog-te-gadget img {
+  display: none !important;
+}
+
+/* Optional: Adjust the dropdown width */
+.goog-te-gadget select {
+  width: 150px; /* Set a specific width */
+}
+/* Hide the 'Powered by Google' text */
+.goog-te-gadget .goog-te-gadget-simple .goog-te-menu-value span {
+  display: none !important;
+}
+
+/* Hide the Google Translate icon */
+.goog-te-gadget .goog-te-gadget-simple .goog-logo-link {
+  display: none !important;
+}
+
+/* Adjust spacing after hiding the logo and text */
+.goog-te-gadget .goog-te-gadget-simple {
+  padding: 0 !important;
+}
+ 
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  display: inline-block !important;
+}
+
+body {
+  position: static !important;
+}
+iframe.skiptranslate {
+  display: none !important;
+}
+#google_translate_element .skiptranslate span {
+  display: none !important;
+}
+
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 1000;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.scontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1E3A5F;
+  font-weight: bold;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-btn {
+  background: #1E3A5F;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Title Styling */
+.title {
+  font-size: 20px;
+  color: #1E3A5F;
+  text-align: center;
+  flex: 1;
+  margin: 0;
+}
+
+/* Mobile Menu */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  nav.open {
+    display: block;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .title {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .right-section {
+    flex-direction: column;
+  }
+}

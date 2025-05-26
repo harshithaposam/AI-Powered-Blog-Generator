@@ -1,0 +1,354 @@
+.blogDetails{
+background-image: url('https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center fixed;
+  background-size:cover;
+  background-repeat: no-repeat; 
+width: 100%;
+  height: 100%; /* Full viewport height */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; 
+  text-align: justify;
+}
+
+.blogDetails .container {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
+.metadata {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #131212;
+ }
+
+.like-section, .comments-section, .share-section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* Keeps internal layout for like/comment/share sections */
+  align-items: center;
+}
+
+
+
+.like-section {
+  margin: 20px 0;
+}
+
+
+
+.comments-section {
+  margin: 20px 0;
+}
+
+
+
+
+
+.error {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+
+.action-buttons {
+  display: flex;
+  justify-content: space-around; /* Evenly spaces the buttons */
+  gap: 15px; /* Adds space between the buttons */
+  margin-top: 20px; /* Adjusts the space above the buttons */
+  display: flex;
+  position: fixed; /* Fixes the container at the bottom */
+  bottom: 20px; /* Adjusts the distance from the bottom */
+  width: 100%; /* Full width of the screen */
+  background-color: #f9f9f9; /* Optional: background for contrast */
+  padding: 10px 0; /* Adds padding for visual separation */
+}
+
+.like-button, .comment-section button, .share-section button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+  width:fit-content;
+  transition: transform 0.2s; /* Optional: adds a smooth hover effect */
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.blog-content {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 8px;
+}
+
+.liked {
+  color: red;
+}
+
+.unliked {
+  color: gray;
+}
+
+.comment-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-section li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 0;
+}
+
+
+.share-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.share-button:hover {
+  background-color: #218838;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .blog-title {
+    font-size: 1.5rem;
+  }
+
+  .blog-content {
+    font-size: 0.9rem;
+  }
+
+
+  .comment-section button {
+    width: 100%; /* Full-width button for smaller screens */
+}
+}
+.image{
+  max-height: fit-content;
+  max-width: fit-content;
+}
+
+.action-section {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing between buttons */
+  align-items: center; /* Align items vertically in the center */
+  gap: 20px; /* Add spacing between buttons */
+  margin-top: 20px;
+}
+
+.like-button,
+.share-button {
+  margin-bottom: 10px; /* Optional: add space below buttons */
+}
+
+
+
+.bookmark-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.bookmark-button:hover {
+  color: #007bff;
+}
+
+
+
+.comment-section {
+  margin-top: 20px;
+}
+
+
+
+
+
+.comments-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.comment-item {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+.comment-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.bookmark-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-right: 200px;
+
+}
+ 
+ .bookmark-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;}
+ 
+ .bookmark-button:hover {
+  transform: scale(1.1);
+ }
+ .bookmark-button:focus {
+  outline: none;}
+
+  .box {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    color: #131212;
+  }
+  /* .summary-content {
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+  } */
+  /* Blog layout */
+.blog-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Blog content styles */
+.blog-content {
+  flex: 3;
+  text-align: center;
+}
+
+
+
+.author-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+
+/* Adjust blog title and image */
+.blog-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.blog-image {
+  max-width:100%;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.comment-section {
+  padding: 20px;
+}
+
+.comment-input textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.comment-user-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.comment-body p {
+  margin: 5px 0;
+}
+
+.comment-actions button {
+  margin-right: 10px;
+}
+
+.reply-form textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.replies {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.image_profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  align-items: center;
+}
+
+
+
+.edit-button {
+  background-color: #dee3e9; /* Blue */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.image {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+}

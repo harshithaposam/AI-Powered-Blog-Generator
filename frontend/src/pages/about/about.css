@@ -1,0 +1,135 @@
+@keyframes wipeEffect {
+    0% {
+      background-position: top;
+    }
+    100% {
+      background-position: bottom;
+    }}
+ 
+    .about-container {
+        font-size: 2rem;
+        color: #000;
+        transition: background-color 3s ease;
+
+.bg-color-0 { background-color: #ffffff; }
+bg-color-1 { background-color: #fcfcfc; }
+bg-color-2 { background-color: #e4f7f0; }
+bg-color-3 { background-color: #d1f0e5; }
+bg-color-4 { background-color: #bee6d8; }
+bg-color-5 { background-color: #d1f0e5; }
+bg-color-6 { background-color: #e4f7f0; }
+bg-color-7 { background-color: #fcfcfc; }
+    }
+       
+       .logo {
+        height: 60px;
+        width: 60px;
+        margin-left: 40px;
+       }
+  
+       .hero-section {
+        height: 500px;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        align-items: flex-start;
+       }
+       .hero-content {
+        margin-left: 50px;
+        margin-top: 0px;
+       }
+       .about-title {
+        font-size: 30px;
+        color: #787878;
+        margin-bottom: 60px;
+       }
+       .hero-subtitle {
+        font-size: 18px;
+        color: #787878;
+        padding-left: 60px;
+       }
+       .get-started-button {
+        height: 50px;
+        width: 120px;
+        font-size: 14px;
+        margin-top: 60px;
+        margin-left: 70px;
+        background: #3e5de6;
+       }
+       .hero-image {
+        height: 400px;
+        width: 650px;
+        opacity: 70%;
+       }
+       .vision-section {
+        background: #00053D;
+        margin: 0;
+        height: 400px;
+       }
+       .vision-title {
+        margin-top: 0;
+        padding: 30px;
+        color: white;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-color: #00FF91;
+        padding-top: 60px;
+        padding-left: 60px;
+       }
+       .vision-text {
+        color: white;
+        margin-left: 60px;
+        font-size: 24px;
+        padding-right: 60px;
+       }
+       .offers-section {
+        height: 900px;
+        background: #F2F6F8;
+        border-bottom: 1px solid rgb(183,183,183);
+       }
+       .offers-title {
+        margin: 0;
+        padding-top: 60px;
+        padding-left: 60px;
+        text-decoration: underline;
+        text-underline-offset: 12px;
+        color: rgb(88, 52, 234);
+       }
+       .card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin: 0;
+        height: auto;
+       }
+       .divider {
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 60px;
+        background: rgb(183,183,183);
+        height: 1px;
+       }
+       .join-text {
+        padding-top: 50px;
+        font-size: 20px;
+        background: #F2F6F8;
+        margin: 0;
+        font-weight: 300;
+        height: 10px;
+        padding-left: 100px;
+        color: black;
+       }
+       .footer {
+        background: white;
+        height: 50px;
+        margin-top: 0px;
+        align-content: center;
+       }
+       .copyright {
+        color: black;
+        font-size: 18px;
+        font-family: "Times New Roman";
+       text-align: center;
+       }       
