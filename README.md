@@ -6,5 +6,5 @@ The Dynamic Blog Generator is an advanced platform engineered to streamline the 
  and facilitating knowledge sharing in a secure and user-friendly
  digital environment.
 
-
-
+**To run:**
+cd 
