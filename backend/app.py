@@ -29,7 +29,7 @@ cred = credentials.Certificate('firebase.json')
 firebase_admin.initialize_app(cred)
 
 # Load configuration
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:dbmslab@localhost/TABLES'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'your_postgresql_url'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['UPLOAD_FOLDER'] = 'static/uploads'  # Directory for storing profile images
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg', 'gif'}
@@ -673,7 +673,7 @@ def summarize_post(post_id):
         # Summarization API integration
         api_url = 'https://api-inference.huggingface.co/models/facebook/bart-large-cnn'  # Replace with your API URL
         headers = {
-            'Authorization': 'Bearer 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',
+            'Authorization': 'token',
             'Content-Type': 'application/json',
         }
 
